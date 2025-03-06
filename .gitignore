@@ -1,0 +1,29 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore Django migrations (optional, only if you want teammates to generate their own)
+**/migrations/**
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables (secrets)
+.env
+.env.local
+config.json
+
+# Ignore logs and cache files
+*.log
+*.cache
+*.pyc
+*.pyo
+
+# Ignore Node.js dependencies (for React)
+frontend/node_modules/
+frontend/.env
